@@ -1,0 +1,66 @@
+.banner{
+    padding-top: 40rpx;
+    swiper{
+        height: 460rpx;
+        swiper-item{
+            image{
+                width: 690rpx;
+                height: 460rpx;
+                border-radius: 20rpx;
+
+            }
+        }
+    }
+}
+//菜单导航
+.scrollNav{
+    padding:60rpx 30rpx;
+    scroll-view{
+        white-space: nowrap;
+        .item{
+            display: inline-block;
+            padding: 0 25rpx;
+            text-align: center;
+            .pic{
+                width: 100rpx;
+                height: 105rpx;
+                image{
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+            .text{
+                font-size: 32rpx;
+                color: var(--globalColor);
+            }
+        }
+        .item:first-child{padding-left: 0;}
+        .item:last-child{padding-right: 0;}
+    }
+}
+//公司介绍
+.about{
+    background: url(https://mp-692e85ef-aeb5-45d0-a8f3-9444cbc7cd74.cdn.bspapp.com/list1-img3.png) no-repeat;
+    background-size: cover;
+    padding: 50rpx 30rpx 80rpx;
+    .content{
+        .row{
+            line-height: 1.6em;
+            text-indent: 2em;
+            font-size: 32rpx;
+            padding: 20rpx 0;
+            border-bottom: 1px dashed var(--themeColor);
+            color: var(--focusColor);
+        }
+        .row:first-child{
+            padding-top: 0;
+        }
+        .row:last-child{
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+    }
+}
+.news{
+    padding: 50rpx 30rpx;
+}
